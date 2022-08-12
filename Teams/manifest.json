@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Example Domain",
+  "version": "1.0",
+  "icons": {
+    "128": "logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [ "https://example.com/*" ],
+      "js": [
+        "app.js"
+      ]
+    }
+  ]
+}
